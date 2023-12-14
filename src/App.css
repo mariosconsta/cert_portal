@@ -3,4 +3,28 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: beige;
+}
+
+form {
+  background-color: white;
+  padding: 5px 60px;
+  border-radius: 10px;
+}
+.formButtons {
+  display: flex;
+}
+
+button {
+  width: 50%;
+  height: 35px;
+  padding: 10px;
+}
+
+.submitButton {
+  margin-right: 5px;
+}
+
+.requestButton {
+  margin-left: 5px;
 }

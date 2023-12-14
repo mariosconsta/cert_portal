@@ -2,3 +2,29 @@ input {
   margin: 10px 0px;
   padding: 15px;
 }
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 24px;
+  text-align: center;
+}
+
+span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  text-align: center;
+  display: none;
+}
+
+input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+input:invalid[focused="true"] ~ span {
+  border: 1px solid red;
+}
