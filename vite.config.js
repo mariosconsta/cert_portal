@@ -5,4 +5,8 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/cert_portal/",
+  server: {
+    host: "localhost",
+    port: 3000,
+  },
 });
